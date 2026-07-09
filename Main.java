@@ -47,13 +47,8 @@ class Main
     System.out.print("Year");
     UtilityBelt.printCentered(55,"CO₂ in Atmosphere (ppm)");
     printGraph(co2Levels, years);
-    double totalSum = 0;
-    double avgPpm;
-    for(int i = 0; i < co2Levels.length; i++){
-        totalSum += co2Levels[i];
-    }
-    avgPpm = totalSum / (double)years.length;
-    System.out.println("From 2001 to 2020, the average atmospheric CO₂ levels across the globe has grown " + avgPpm + " ppm.");
+    double avgPpm = co2Levels[co2Levels.length-1] - co2Levels[0];
+    System.out.printf("From 2001 to 2020, the average atmospheric CO₂ levels across the globe has grown %.2f ppm.", avgPpm);
 
   }
   public static void printBar(double co2){
