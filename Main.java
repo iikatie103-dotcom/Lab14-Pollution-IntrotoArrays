@@ -41,7 +41,7 @@ class Main
 
   
     //Explanation of oil drum units
-    System.out.println("\nData displayed for each year begins at 360 ppm.\nEach additional oil drum (🛢 ) represents an additional 10 ppm.\n");
+    //System.out.println("\nData displayed for each year begins at 360 ppm.\nEach additional oil drum (🛢 ) represents an additional 10 ppm.\n");
 
     //Column titles of graph
     System.out.print("Year");
