@@ -52,8 +52,8 @@ class Main
 
   }
   public static void printBar(double co2){
-      double numOilDrum = co2 - 360.0;
-      for (int i = 0; i < numOilDrum - 1; i++){
+      double numOilDrum = (int)(co2) - 360.0;
+      for (int i = 0; i < numOilDrum; i++){
           System.out.print("\uD83D\uDEE2");
       }
       System.out.println(" " + co2);
