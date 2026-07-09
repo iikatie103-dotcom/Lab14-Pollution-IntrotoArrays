@@ -61,7 +61,7 @@ class Main
 
   public static void printGraph(double[] co2Levels, int[] years){
       for (int i = 0; i < years.length; i++){
-          System.out.print(years[i] + " ");
+          System.out.print(years[i]);
           printBar(co2Levels[i]);
       }
   }
