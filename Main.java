@@ -56,7 +56,7 @@ class Main
       for (int i = 0; i < numOilDrum; i++){
           System.out.print("\uD83D\uDEE2");
       }
-      System.out.println(" " + co2);
+      System.out.printf(" %.2f%n", co2);
   }
 
   public static void printGraph(double[] co2Levels, int[] years){
